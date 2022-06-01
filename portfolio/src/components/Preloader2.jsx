@@ -1,7 +1,7 @@
 import Lottie from 'react-lottie';
-import * as location from './intro.json'
+import * as location from './107298-payment.json'
 
-const Preloader1 = () => {
+const Preloader2 = () => {
 
   const defaultOptions = {
     loop: false,
@@ -23,4 +23,4 @@ const Preloader1 = () => {
   )
 }
 
-export default Preloader1;
+export default Preloader2;
