@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="text-white">
       {/* <Preloader1 /> */}
-      { !loading ? <Preloader1/> : !done ? <Preloader2 />:<>{/*<Navbar /><Home />*/}<About /></>  }
+      { !loading ? <Preloader1/> : !done ? <Preloader2 />:<><Navbar /><Home /><About /></>  }
       {/* <Navbar />
       <Home /> */}
     </div>
