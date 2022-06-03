@@ -10,20 +10,18 @@ import Projects from "./components/Projects";
 
 function App() {
   const [loading , setloading] = useState(false);
-  const [done , setDone] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
        setloading(true);
-       setTimeout(() => {
-         setDone(true);
-       }, 2000);
-    }, 4000);
+      //  no api fetching yet heeee
+    }, 6500);
   },[])
 
   return (
     <div className="text-white">
-      { !loading ? <Preloader1/> : !done ? <Preloader2 />:<><Navbar /><Home /><About /><Skills /><Projects /></> }
+      { !loading ? <Preloader1/> :<><Navbar /><Home /><About /><Skills /><Projects /></> }
+      
     </div>
   );
 }
