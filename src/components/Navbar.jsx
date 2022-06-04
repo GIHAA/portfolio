@@ -1,8 +1,9 @@
 import React , {useState} from "react";
 import { FaBars, FaTimes ,FaGithub , FaLinkedin ,FaFacebook, FaYoutube , FaTwitterSquare} from "react-icons/fa";
-import {HiOutlineMail} from "react-icons/hi";
 import {BsFillPersonLinesFill} from "react-icons/bs";
 import logo from "../pictures/logo.png";
+import {Link} from "react-scroll";
+
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -14,11 +15,31 @@ const Navbar = () => {
       </div>
 
         <ul className="hidden md:flex">
-          <li>Home</li>
-          <li>About</li>
-          <li>Experience</li>
-          <li>Project</li>
-          <li>contact us</li>
+        <li>
+          <Link to='home' smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to='about' smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to='Experience' smooth={true} duration={500}>
+            Experience
+          </Link>
+        </li>
+        <li>
+          <Link to='Projects' smooth={true} duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link to='contact' smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
         </ul>
 
       <div onClick={handleClick} className="md:hidden z-10">
@@ -26,11 +47,35 @@ const Navbar = () => {
       </div>
       
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Experience</li>
-        <li className="py-6 text-4xl">Project</li>
-        <li className="py-6 text-4xl">contact us</li>
+      <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
+          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
+          <Link onClick={handleClick} to='Experience' smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
+          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
+          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
