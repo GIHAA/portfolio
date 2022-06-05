@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-repo/static/css/main.b1d508e6.css",
-    "main.js": "/portfolio-repo/static/js/main.be049b53.js",
+    "main.js": "/portfolio-repo/static/js/main.cb6a7135.js",
     "static/media/bg.jpg": "/portfolio-repo/static/media/bg.e2a76dff58b4a65106b1.jpg",
     "static/media/arduino.png": "/portfolio-repo/static/media/arduino.51319eb1c9d57bd3dd28.png",
     "static/media/pre.mp4": "/portfolio-repo/static/media/pre.64e841e8915230a9874a.mp4",
@@ -16,10 +16,10 @@
     "static/media/javascript.png": "/portfolio-repo/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-repo/index.html",
     "main.b1d508e6.css.map": "/portfolio-repo/static/css/main.b1d508e6.css.map",
-    "main.be049b53.js.map": "/portfolio-repo/static/js/main.be049b53.js.map"
+    "main.cb6a7135.js.map": "/portfolio-repo/static/js/main.cb6a7135.js.map"
   },
   "entrypoints": [
     "static/css/main.b1d508e6.css",
-    "static/js/main.be049b53.js"
+    "static/js/main.cb6a7135.js"
   ]
 }
