@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import bg from "../assets/bg.jpg";
 import {HiArrowNarrowRight} from "react-icons/hi";
 import Typical from 'react-typical'
-import {Link} from "react-scroll";
 import Aos from "aos";
 import "aos/dist/aos.css";
 

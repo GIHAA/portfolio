@@ -15,7 +15,7 @@ function App() {
     setTimeout(() => {
        setloading(true);
       //  no api fetching yet heeee
-    }, 6500);
+    }, 3000);
   },[])
 
   return (

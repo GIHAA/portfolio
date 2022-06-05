@@ -3,11 +3,22 @@ import { FaBars, FaTimes ,FaGithub , FaLinkedin ,FaFacebook, FaYoutube , FaTwitt
 import {BsFillPersonLinesFill} from "react-icons/bs";
 import logo from "../pictures/logo.png";
 import {Link} from "react-scroll";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
-    const handleClick = () => setNav(!nav);
+    const handleClick = () => {
+      setNav(!nav);
+      Aos.init({disable: true});
+    };
+    const handleClickreset = () => {
+      setNav(!nav);
+      Aos.refresh();
+      Aos.init({duration: 2000});
+    };
+
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f]">
       <div>
@@ -45,34 +56,33 @@ const Navbar = () => {
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
-      
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+      <ul className={!nav ? 'hidden' : 'z-auto absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
       <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+          <Link onClick={handleClickreset} to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+          <Link onClick={handleClickreset} to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='Experience' smooth={true} duration={500}>
+          <Link onClick={handleClickreset} to='Experience' smooth={true} duration={500}>
           Experience
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='Projects' smooth={true} duration={500}>
+          <Link onClick={handleClickreset} to='Projects' smooth={true} duration={500}>
             Projects
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+          <Link onClick={handleClickreset} to='contact' smooth={true} duration={500}>
             Contact
           </Link>
         </li>
