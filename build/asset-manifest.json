@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-repo/static/css/main.9bb5179b.css",
-    "main.js": "/portfolio-repo/static/js/main.db2e57ff.js",
+    "main.css": "/portfolio-repo/static/css/main.904043b5.css",
+    "main.js": "/portfolio-repo/static/js/main.54713e86.js",
     "static/media/bg.jpg": "/portfolio-repo/static/media/bg.e2a76dff58b4a65106b1.jpg",
     "static/media/arduino.png": "/portfolio-repo/static/media/arduino.51319eb1c9d57bd3dd28.png",
     "static/media/pre.mp4": "/portfolio-repo/static/media/pre.64e841e8915230a9874a.mp4",
@@ -15,11 +15,11 @@
     "static/media/firebase.png": "/portfolio-repo/static/media/firebase.209703cedf1b1a96bc52.png",
     "static/media/javascript.png": "/portfolio-repo/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-repo/index.html",
-    "main.9bb5179b.css.map": "/portfolio-repo/static/css/main.9bb5179b.css.map",
-    "main.db2e57ff.js.map": "/portfolio-repo/static/js/main.db2e57ff.js.map"
+    "main.904043b5.css.map": "/portfolio-repo/static/css/main.904043b5.css.map",
+    "main.54713e86.js.map": "/portfolio-repo/static/js/main.54713e86.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bb5179b.css",
-    "static/js/main.db2e57ff.js"
+    "static/css/main.904043b5.css",
+    "static/js/main.54713e86.js"
   ]
 }

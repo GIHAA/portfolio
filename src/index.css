@@ -17,3 +17,16 @@
         @apply cursor-pointer;
     }
 }
+
+
+.skillsBorder::before{
+  content: "";
+  background-image: conic-gradient(
+    #58dfc3 20deg,
+    transparent 120deg
+  );
+  width: 150%;
+  height: 150%;
+  position: absolute;
+  animation: rotate 2s linear infinite;
+}

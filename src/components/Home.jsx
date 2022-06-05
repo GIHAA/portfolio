@@ -10,12 +10,13 @@ const Home = () => {
 
     useEffect(() => {
         Aos.init({duration: 2000});
+        // Aos.init({disable: true});
     },[]);
 
     return (
         <div 
         style={{ backgroundImage: `url(${bg})`  }}
-        name = 'home' className='bg-no-repeat bg-center w-full h-screen '>
+        name = 'home' className='snap-start bg-no-repeat bg-center w-full h-screen '>
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
                 <p className="text-2xl font-po text-[#00dbfe]">Hi, my name is</p>
                 <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f5]">GIHAN SUDEEPA</h1>

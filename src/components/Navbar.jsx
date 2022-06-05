@@ -61,13 +61,13 @@ const Navbar = () => {
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='Experience' smooth={true} duration={500}>
-            Skills
+          Experience
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-            Work
+          <Link onClick={handleClick} to='Projects' smooth={true} duration={500}>
+            Projects
           </Link>
         </li>
         <li className='py-6 text-4xl'>
@@ -82,31 +82,31 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] rounded-r-[10px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-blue-600 hover:rounded-r-[100px] ">
             <a className="flex justify-between items-center w-full text-gray-300"
-            href="/">
+            href="https://www.linkedin.com/in/gihan-sudeepa-177a9820a/">
               Linkedin <FaLinkedin size={30}/>
             </a>
           </li>
           <li className="w-[160px]  rounded-r-[10px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-[#333333] hover:rounded-r-[100px]">
             <a className="flex justify-between items-center w-full text-gray-300"
-            href="/">
+            href="https://github.com/GIHAA">
               Github <FaGithub size={30}/>
             </a>
           </li>
           <li className="w-[160px]  rounded-r-[10px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-blue-600 hover:rounded-r-[100px]">
             <a className="flex justify-between items-center w-full text-gray-300"
-            href="/">
+            href="https://twitter.com/sudeepa_gihan">
               twitter <FaTwitterSquare size={30}/>
             </a>
           </li>
           <li className="w-[160px]  rounded-r-[10px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-red-600 hover:rounded-r-[100px]">
             <a className="flex justify-between items-center w-full text-gray-300"
-            href="/">
-              Linkedin <FaYoutube size={30}/>
+            href="https://www.youtube.com/channel/UCZ4YyKzfsJmZGkD6bXfHD5Q">
+              Youtube <FaYoutube size={30}/>
             </a>
           </li>
           <li className="w-[160px]  rounded-r-[10px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 hover:bg-[#556e4b] hover:rounded-r-[100px]">
             <a className="flex justify-between items-center w-full text-gray-300"
-            href="/">
+            href="">
               Resume <BsFillPersonLinesFill size={30}/>
             </a>
           </li>
