@@ -1,7 +1,7 @@
 import React , {useState} from "react";
 import { FaBars, FaTimes ,FaGithub , FaLinkedin ,FaFacebook, FaYoutube , FaTwitterSquare} from "react-icons/fa";
 import {BsFillPersonLinesFill} from "react-icons/bs";
-import logo from "../pictures/logo.png";
+import logo from "../assets/logo.png";
 import {Link} from "react-scroll";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -11,16 +11,16 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => {
       setNav(!nav);
+
       // Aos.init({disable: true});
     };
     const handleClickreset = () => {
       setNav(!nav);
-      // Aos.refresh();
-      // Aos.init({duration: 2000});
+      Aos.refresh();
     };
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f]">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] z-50">
       <div>
         <img src={logo} alt="logo image" style={{ width: "150px" }} />
       </div>
@@ -52,11 +52,12 @@ const Navbar = () => {
           </Link>
         </li>
         </ul>
-
+      
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
-      <ul className={!nav ? 'hidden' : 'z-auto absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+
+      <ul className={!nav ? 'hidden' : 'z-50 fixed top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center '}>
       <li className='py-6 text-4xl'>
           <Link onClick={handleClickreset} to='home' smooth={true} duration={500}>
             Home

@@ -2,16 +2,9 @@ import React, { useEffect } from "react";
 import bg from "../assets/bg.jpg";
 import {HiArrowNarrowRight} from "react-icons/hi";
 import Typical from 'react-typical'
-import Aos from "aos";
-import "aos/dist/aos.css";
+import {Link} from "react-scroll";
 
 const Home = () => {
-
-    useEffect(() => {
-        Aos.init({duration: 2000});
-        // Aos.init({disable: true});
-    },[]);
-
     return (
         <div 
         style={{ backgroundImage: `url(${bg})`  }}
@@ -29,7 +22,9 @@ const Home = () => {
                     /></h2>
                 <div>
                 <button className='rounded-lg text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#61b8c5] hover:border-[#00dbfe]'>
+                <Link to='Projects' smooth={true} duration={500}>
             View Work
+                    </Link>
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 ' />
             </span>

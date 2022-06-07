@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaBars, FaTimes ,FaGithub , FaLinkedin ,FaFacebook, FaYoutube , FaTwitterSquare} from "react-icons/fa";
+import { FaGithub , FaLinkedin , FaYoutube , FaTwitterSquare} from "react-icons/fa";
 import {BsFillPersonLinesFill} from "react-icons/bs";
 
 const Footer = () => {
