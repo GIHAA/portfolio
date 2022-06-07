@@ -19,7 +19,7 @@ const Projects = () => {
         <div data-aos="fade-right"
             style={{ backgroundImage: `url(${p1})`,  }}
             className="rounded-[10px] bg-no-repeat bg-contain bg-center w-[280px] h-[400px] bg- shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto content-div hover:bg-blur-lg">
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 bg-[#040c16] rounded-[10px] bg-opacity-60" >
               <span className="text-2xl font-bold text-white tracking-wider text-center">
                 <p>snowy</p>
               </span>
@@ -41,7 +41,7 @@ const Projects = () => {
           <div  data-aos="fade-left"
             style={{ backgroundImage: `url(${lisa})`,  }}
             className="rounded-[10px] bg-no-repeat bg-contain bg-center w-[280px] h-[400px] bg- shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto content-div hover:bg-blur-lg">
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 bg-[#040c16] rounded-[10px] bg-opacity-60">
               <span className="text-2xl font-bold text-white tracking-wider text-center">
                 <p>Lisa</p>
               </span>
@@ -60,21 +60,23 @@ const Projects = () => {
             </div>
           </div>
 
+
+
           <div data-aos="fade-right"
             style={{ backgroundImage: `url(${p2})`,  }}
-            className="rounded-[10px] bg-no-repeat bg-contain bg-center w-[280px] h-[400px] bg- shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto content-div hover:bg-blur-lg">
-            <div className="opacity-0 group-hover:opacity-100">
+            className="rounded-[10px] bg-no-repeat bg-contain bg-center w-[280px] h-[400px] bg- shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto content-div ">
+            <div className="opacity-0 group-hover:opacity-100 bg-[#040c16] rounded-[10px] bg-opacity-60">
               <span className="text-2xl font-bold text-white tracking-wider text-center">
                 <p>lucus</p>
               </span>
               <div className="pt-8 text-center">
                 <a target="_blank" href="https://www.youtube.com/watch?v=1mxHK4MeRZQ">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="blur-none text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a target="_blank" href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
+                  <button className="blur-none text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Code
                   </button>
                 </a>

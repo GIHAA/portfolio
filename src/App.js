@@ -3,9 +3,10 @@ import Navbar from "./components/Navbar";
 import Preloader1 from "./components/Preloader1";
 import About from "./components/About";
 import React, { useEffect, useState } from "react";
-import Skills from "./components/Skills";
+import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -14,13 +15,13 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
        setloading(true);
-      //  no api fetching yet heeee
+      //  no api fetching yet
     }, 3000);
   },[])
 
   return (
     <div className="text-white">
-      { !loading ? <Preloader1/>:<><Navbar /><Home /><About /><Skills /><Projects /><Contact /> </> }
+      { !loading ? <Preloader1/>:<><Navbar /><Home /><About /><Experience /><Projects /><Contact /><Footer /></> }
     </div>
   );
 }
