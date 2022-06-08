@@ -1,5 +1,5 @@
 
-## My Portfolio 🤖👦💻👉  <a href= "https://gihaa.github.io/portfolio/" >live site </a>
+## My Portfolio 🤖👦💻👉  <a href= "http://gihaa.dev/" >live site </a>
 <br>
 This website is programmed using Reactjs and tailwind CSS
 
