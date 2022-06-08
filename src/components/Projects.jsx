@@ -53,7 +53,7 @@ const Projects = () => {
                 </a>
                 <a target="_blank" href="https://ieee.sltc.ac.lk/ies-circuito21/exhibition/index.php?request=13">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
-                    Code
+                    Event
                   </button>
                 </a>
               </div>
@@ -75,7 +75,7 @@ const Projects = () => {
                     Demo
                   </button>
                 </a>
-                <a target="_blank" href="/">
+                <a target="_blank" href="https://github.com/GIHAA/LUCUS">
                   <button className="blur-none text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Code
                   </button>
