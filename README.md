@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+
+## My Portfolio 🤖👦💻👉  <a href= "https://gihaa.github.io/portfolio/" >live site </a>
+<br>
+This website is programmed using Reactjs and tailwind CSS
+
+<div align="center">
+  <img align="center" width="500" src="https://user-images.githubusercontent.com/86099252/172355905-c6ff1c82-674b-4cf7-98f5-de5cead23866.png">
+</div>
+
+
+
+<hr>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
